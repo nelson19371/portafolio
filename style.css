@@ -289,3 +289,12 @@ footer{
 .gallery__item1{
     background: url('/img/FoxCode.png') no-repeat center center/cover;
 }
+
+.tituloContacto{
+    margin-top: 20px;
+    text-align:center;
+    font-family:monospace;
+    font-size: 60px;
+   
+    font-weight:bold;
+}
