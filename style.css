@@ -209,6 +209,18 @@ footer{
     border-radius: 5px;
 }
 
+.gallery__title_git{
+    position: absolute;
+    bottom: 0;
+    background: #FE6636;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    border: 1px solid #FE6636;
+    color:white;
+    border-radius: 5px;
+}
+
 .gallery__item:nth-child(4){
   grid-column-start:span 2;
     
