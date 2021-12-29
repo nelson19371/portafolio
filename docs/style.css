@@ -310,3 +310,22 @@ footer{
    
     font-weight:bold;
 }
+@media (max-width:600px) {
+    .lenguajes img{
+        height: 170px;
+        width: 50px;
+        margin: 5px;
+    }
+    .titulo{
+        margin-top: 5px;
+        text-align:center;
+        font-family:monospace;
+        font-size: 30px;
+        
+        font-weight:bold;
+    }
+
+    .logof{
+        margin-bottom: 500px;
+    }
+}
