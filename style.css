@@ -330,3 +330,15 @@ footer{
         margin-bottom: 500px;
     }
 }
+
+.sobre_mi{
+    padding-top: 50px;
+    font-family: monospace;
+    margin-bottom: 70px;
+    
+}
+
+.sobre_mi p{
+    font-size: 100px;
+    
+}
