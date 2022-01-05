@@ -215,23 +215,95 @@ footer{
     color:white;
     border-radius: 5px;
 }
-.gallery__title_javascript{
+.gallery__title_javascript {
     position: absolute;
     bottom: 0;
-    background: red;
-    width: 100%;
-    height: 50px;
+    /* background: red; */
+    width: 300px;
+    height: 31px;
     margin: 0;
-    
     padding: 10px;
-    border: 1px solid white;
-    color:white;
+    /* border: 1px solid white; */
+    color: white;
     border-radius: 5px;
+    font-size: 15px;
+    opacity: 94%;
+    margin-left: 149px;
 }
+
+
 .gallery__item_{
     position: relative;
     margin: 2px;
     opacity: 60%;
     margin: 10px;
     margin-top: 32px;
+}
+@media (max-width:600px) {
+    .lenguajes img {
+        height: 100%;
+        width: 50px;
+        margin: 20px;
+    }
+    footer {
+        background: black;
+        padding: 2px 0;
+        color: white;
+        margin-top: 10px;
+    
+    }
+    .gallery__title_css {
+        position: absolute;
+        bottom: 0;
+        background: black;
+        width: 100%;
+        height: 50px;
+        margin: 0;
+        padding: 10px;
+        border: 1px solid white;
+        color: white;
+        border-radius: 5px;
+        margin: -24px 0px;
+        font-size: 19px;
+    }
+    
+
+    .gallery__title_javascript {
+        position: absolute;
+        bottom: 0;
+        background: red;
+        width: 100%;
+        height: 50px;
+        margin: -18px 0px;
+        padding: 10px;
+        border: 1px solid white;
+        color: white;
+        border-radius: 5px;
+        font-size: 19px;
+    }
+    .gallery__title_html {
+        position: absolute;
+        bottom: 0;
+        background: #36A3FE;
+        width: 100%;
+        height: 50px;
+        margin: 0;
+        padding: 10px;
+        border: 1px solid white;
+        color: white;
+        border-radius: 5px;
+        margin: -24px 0px;
+        font-size: 19px;
+    }
+    .titulo {
+        margin-top: 20px;
+        text-align: center;
+        font-family: monospace;
+        font-size: 48px;
+        font-weight: bold;
+    }
+}
+#gmail_img{
+    width: 19px;
+    margin-left: 118px;
 }
